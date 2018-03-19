@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>jsonp</title>
+	<script type="text/javascript">
+		function handler(json){
+			if(json.success){
+				console.log(json.name, json.sex);
+			}
+		}
+	</script>
+</head>
+<body>
+	<script src="http://sub.testphp.com/jsonp.php?name=xiaolin&sex=male&callback=handler" ></script>
+</body>
+</html>
