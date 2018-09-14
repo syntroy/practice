@@ -15,7 +15,7 @@ let isPalindrome = function(n){
 
 /**
  * 删除数组中重复元素
- * @param {number} a
+ * @param {array} a
  * @return {number} length
  */
 
