@@ -6,7 +6,7 @@
 let isPalindrome = function(n){
     let str = n.toString();
     let reverses = str.split('').reverse().join('');
-    console.log(str, reverses)
+    
     if(str === reverses){
         return true;
     }
